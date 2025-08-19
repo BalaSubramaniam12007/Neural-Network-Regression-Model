@@ -61,15 +61,15 @@ class NeuralNet(nn.Module):
 
 
 # Initialize the Model, Loss Function, and Optimizer
-ai_brain = NeuralNet()
+bala_brain = NeuralNet()
 criterion = nn.MSELoss()
-optimizer = optim.Adam(ai_brain.parameters(), lr=0.001)
+optimizer = optim.Adam(bala_brain.parameters(), lr=0.001)
 
 
 def train_model(ai_brain, X_train, y_train, criterion, optimizer, epochs=2000):
     for epoch in range(epochs):
         optimizer.zero_grad()
-        outputs = ai_brain(X_train)
+        outputs = bala_brain(X_train)
         loss = criterion(outputs, y_train)
         loss.backward()
         optimizer.step()
