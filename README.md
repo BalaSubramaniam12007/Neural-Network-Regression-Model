@@ -4,7 +4,7 @@ To develop a neural network regression model for the given dataset.
 
 ## THEORY
 
-Explain the problem statement
+A neural network regression model is a machine learning approach used to predict continuous values based on input features. Unlike classification tasks, where outputs are discrete classes, regression focuses on estimating real-valued outputs.
 
 ## Neural Network Model
 
@@ -23,7 +23,7 @@ Split the dataset into training and testing
 
 ### STEP 3:
 
-Create MinMaxScalar objects ,fit the model and transform the data.
+Create MinMaxScalar objects, fit the model, and transform the data.
 
 ### STEP 4:
 
@@ -101,4 +101,4 @@ def train_model(ai_brain, X_train, y_train, criterion, optimizer, epochs=2000):
 
 ## RESULT
 
-Include your result here
+The neural network regression model was successfully developed and trained on the given dataset. The training process showed a consistent decrease in loss, indicating that the model learned the underlying patterns effectively
